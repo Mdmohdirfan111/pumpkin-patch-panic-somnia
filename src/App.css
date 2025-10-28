@@ -1,0 +1,83 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Creepster', cursive;
+  background-color: #111;
+  color: #fff;
+}
+
+.app {
+  text-align: center;
+}
+
+.home {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+/* Button hover effects for spooky vibe */
+button:hover {
+  background-color: #e65c00;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Grid cell hover effect */
+.game-board .grid-cell:hover {
+  background-color: #333;
+  border-color: #ff0000;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Leaderboard table styling */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+th, td {
+  border: 2px solid #ff7518;
+  padding: 10px;
+}
+
+/* Social links styling */
+.social-links a {
+  color: #ff7518;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.social-links img {
+  margin-right: 5px;
+}
+
+.social-links a:hover {
+  color: #fff;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Add to bottom of src/App.css */
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  color: #ff7518;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: rgba(255, 117, 24, 0.2);
+  color: #fff;
+  transform: translateY(-2px);
+}
